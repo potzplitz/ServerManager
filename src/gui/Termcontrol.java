@@ -58,41 +58,147 @@ public class Termcontrol {
 						break;
 						
 					case 2:
-						System.out.println("1.10.2 wird installiert.");
+						
+						System.out.println("bist du mit der Mojang EULA einverstanden?  <J/N>" + " (Hier kannst du die EULA nachlesen: " + eula + ")");
+						inp1 = sc.next();
+						
+						if(inp1.equalsIgnoreCase("J")) {
+						    inp1 = "";
+							System.out.println("1.10.2 wird installiert.");
+						} else if(inp1.equalsIgnoreCase("N")) {
+							System.out.println("Server wurde nicht installiert.");
+							inp1 = "";
+						}else {
+							System.out.println("Eingabe wurde nicht erkannt!");
+							inp1 = "";
+							
+						}
+						
 						inp = "";
 						break;
 					
 					case 3:
-						System.out.println("1.12.2 wird installiert.");
+						System.out.println("bist du mit der Mojang EULA einverstanden?  <J/N>" + " (Hier kannst du die EULA nachlesen: " + eula + ")");
+						inp1 = sc.next();
+						
+						if(inp1.equalsIgnoreCase("J")) {
+						    inp1 = "";
+							System.out.println("1.12.2 wird installiert.");
+						} else if(inp1.equalsIgnoreCase("N")) {
+							System.out.println("Server wurde nicht installiert.");
+							inp1 = "";
+						}else {
+							System.out.println("Eingabe wurde nicht erkannt!");
+							inp1 = "";
+							
+						}
 						inp = "";
 						break;
 					
 					case 4:
-						System.out.println("1.14.4 wird installiert.");
+						System.out.println("bist du mit der Mojang EULA einverstanden?  <J/N>" + " (Hier kannst du die EULA nachlesen: " + eula + ")");
+						inp1 = sc.next();
+						
+						if(inp1.equalsIgnoreCase("J")) {
+						    inp1 = "";
+							System.out.println("1.14.4 wird installiert.");
+						} else if(inp1.equalsIgnoreCase("N")) {
+							System.out.println("Server wurde nicht installiert.");
+							inp1 = "";
+						}else {
+							System.out.println("Eingabe wurde nicht erkannt!");
+							inp1 = "";
+							
+						}
 						inp = "";
 						break;
 						
 					case 5: 
-						System.out.println("1.15.2 wird installiert.");
+						System.out.println("bist du mit der Mojang EULA einverstanden?  <J/N>" + " (Hier kannst du die EULA nachlesen: " + eula + ")");
+						inp1 = sc.next();
+						
+						if(inp1.equalsIgnoreCase("J")) {
+						    inp1 = "";
+							System.out.println("1.15.2 wird installiert.");
+						} else if(inp1.equalsIgnoreCase("N")) {
+							System.out.println("Server wurde nicht installiert.");
+							inp1 = "";
+						}else {
+							System.out.println("Eingabe wurde nicht erkannt!");
+							inp1 = "";
+							
+						}
 						inp = "";
 						break;
 						
 					case 6: 
-						System.out.println("1.16 wird installiert.");
+						System.out.println("bist du mit der Mojang EULA einverstanden?  <J/N>" + " (Hier kannst du die EULA nachlesen: " + eula + ")");
+						inp1 = sc.next();
+						
+						if(inp1.equalsIgnoreCase("J")) {
+						    inp1 = "";
+							System.out.println("1.16 wird installiert.");
+						} else if(inp1.equalsIgnoreCase("N")) {
+							System.out.println("Server wurde nicht installiert.");
+							inp1 = "";
+						}else {
+							System.out.println("Eingabe wurde nicht erkannt!");
+							inp1 = "";
+							
+						}
 						inp = "";
 						break;
 					case 7:
-						System.out.println("1.17 wird installiert.");
+						System.out.println("bist du mit der Mojang EULA einverstanden?  <J/N>" + " (Hier kannst du die EULA nachlesen: " + eula + ")");
+						inp1 = sc.next();
+						
+						if(inp1.equalsIgnoreCase("J")) {
+						    inp1 = "";
+							System.out.println("1.17 wird installiert.");
+						} else if(inp1.equalsIgnoreCase("N")) {
+							System.out.println("Server wurde nicht installiert.");
+							inp1 = "";
+						}else {
+							System.out.println("Eingabe wurde nicht erkannt!");
+							inp1 = "";
+							
+						}
 						inp = "";
 						break;
 						
 					case 8:
-						System.out.println("1.18 wird installiert.");
+						System.out.println("bist du mit der Mojang EULA einverstanden?  <J/N>" + " (Hier kannst du die EULA nachlesen: " + eula + ")");
+						inp1 = sc.next();
+						
+						if(inp1.equalsIgnoreCase("J")) {
+						    inp1 = "";
+							System.out.println("1.18 wird installiert.");
+						} else if(inp1.equalsIgnoreCase("N")) {
+							System.out.println("Server wurde nicht installiert.");
+							inp1 = "";
+						}else {
+							System.out.println("Eingabe wurde nicht erkannt!");
+							inp1 = "";
+							
+						}
 						inp = "";
 						break;
 						
 					case 9: 
-						System.out.println("1.19 wird installiert.");
+						System.out.println("bist du mit der Mojang EULA einverstanden?  <J/N>" + " (Hier kannst du die EULA nachlesen: " + eula + ")");
+						inp1 = sc.next();
+						
+						if(inp1.equalsIgnoreCase("J")) {
+						    inp1 = "";
+							System.out.println("1.19 wird installiert.");
+						} else if(inp1.equalsIgnoreCase("N")) {
+							System.out.println("Server wurde nicht installiert.");
+							inp1 = "";
+						}else {
+							System.out.println("Eingabe wurde nicht erkannt!");
+							inp1 = "";
+							
+						}
 						inp = "";
 						break;
 						
